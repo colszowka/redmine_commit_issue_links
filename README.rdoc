@@ -1,5 +1,4 @@
-RedmineCommitIssueLinks
-=======================
+= RedmineCommitIssueLinks
 
 Link up issue numbers in plain format "#1234" from commit numbers to the actual issue.
 
@@ -11,7 +10,8 @@ inside the commit message after create.
 
 Use rake 'redo_commit_issue_links [RAILS_ENV=production]' to apply this to all existing commits.
 
-This is pretty much a hack, do not expect tests. Tested against Redmine 0.9.3
+<b>NOTE:</b> This is pretty much a hack, do not expect tests or beautiful code. Tested against Redmine 0.9.3.
+
 
 
 Copyright (c) 2010 Christoph Olszowka, Capita Unternehmensberatung GmbH. Released under the MIT license
