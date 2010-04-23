@@ -1,0 +1,17 @@
+RedmineCommitIssueLinks
+=======================
+
+Link up issue numbers in plain format "#1234" from commit numbers to the actual issue.
+
+Normally, redmine only accepts (customizible) special keywords like "Closes 1234" to link changesets
+against issues so the changesets appear in the web interface alongside the issue contents.
+
+This plugin adds behaviour that will link up issues from commits that only hold a plain "#1234" somewhere
+inside the commit message after create.
+
+Use rake redo_commit_issue_links to apply this to all existing commits.
+
+This is pretty much a hack, do not expect tests. Tested against Redmine 0.9.3
+
+
+Copyright (c) 2010 Christoph Olszowka, Capita Unternehmensberatung GmbH. Released under the MIT license
