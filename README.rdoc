@@ -14,7 +14,7 @@ Install with:
   
 This rake task will link-up existing commits:
 
-  rake 'redo_commit_issue_links [RAILS_ENV=production]'
+  rake redo_commit_issue_links [RAILS_ENV=production]
 
 <b>NOTE:</b> This is pretty much a hack, do not expect tests or beautiful code. Tested against Redmine 0.9.3.
 
