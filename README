@@ -9,7 +9,7 @@ against issues so the changesets appear in the web interface alongside the issue
 This plugin adds behaviour that will link up issues from commits that only hold a plain "#1234" somewhere
 inside the commit message after create.
 
-Use rake redo_commit_issue_links to apply this to all existing commits.
+Use rake 'redo_commit_issue_links [RAILS_ENV=production]' to apply this to all existing commits.
 
 This is pretty much a hack, do not expect tests. Tested against Redmine 0.9.3
 
